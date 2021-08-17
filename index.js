@@ -2,7 +2,7 @@
 const name = ['Lisa', "Kaitlin", "Jan", 'surprise']
 const event = 'surprise'
 
-function writeCards(name, event) {
+const writeCards = (name, event) => {
     let sendCards = [];
     for (let i=0; i < name.length; i++) {
         sendCards.push(`Thank you, ${name[i]}, for the wonderful ${event} gift!`);
